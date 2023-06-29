@@ -1,0 +1,115 @@
+/* Formatarea textului */
+ /* Proprietatea text-decoration */
+ .text > span {
+    text-decoration: overline;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+
+  /* Proprietatea text-transform */
+  .site-nav .link {
+    text-transform: uppercase;
+  }
+
+  /* Proprietatea text-align */
+  .post-title {
+    text-align: center;
+  }
+  
+  .align-right {
+    text-align: right;
+  }
+  
+  .align-justify {
+    text-align: justify;
+  }
+
+  /* Proprietatea text-indent */
+  .post-text-indent {
+    text-indent: 100px;
+  }
+
+  /* Proprietatea line-height */
+  .text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Proprietatea letter-spacing */
+  .post-title {
+    letter-spacing: 10px;
+  }
+  
+  .post-letter-spacing {
+    letter-spacing: 5px;
+  }
+
+  /* Proprietatea word-spacing */
+
+  /* Proprietatea text-shadow */
+  .title-text-shadow {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  /* Umbra cu mai multe straturi */
+  .title-umbra-cu-mai-multe-straturi {
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+  }
+
+  /* Proprietatea white-space */
+
+  /* Proprietățile fontului */
+ /* Proprietatea font-size */
+ .text-font-size {
+  font-size: 20px;
+}
+
+/* Proprietatea font-weight */
+.text-font-weight {
+  font-weight: 700;
+}
+
+/* Proprietatea font-style */
+.text-font-style {
+  font-style: oblique;
+}
+
+/* Proprietatea font-family */
+body {
+  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+}
+
+/* Pseudo-elementele unui text*/
+/* Pseudo-elementul ::first-letter */
+/* Pseudo-elementul ::selection */
+pre {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: 'Tahoma', serif;
+  font-size: 32px;
+  color: #f44336;
+}
+
+/* Let's add text selection styles for each paragraph of the poem. */
+pre::selection {
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+
+/* Fonturi personalizate */
+.title-tangerine {
+      font-family: 'Tangerine', cursive;
+      font-size: 84px;
+      color: #ba19c9;
+      
+}
+  
+ /* Directiva @font-face */
