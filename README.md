@@ -1,1 +1,2 @@
-# lectia4
+# Lectia 4 - Formatarea textului
+
